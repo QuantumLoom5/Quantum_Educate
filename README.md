@@ -62,9 +62,11 @@ yarn install</code>
 
 To start the development server, run the following command:
 
-<code>npm run dev
+```bash
+npm run dev
 #or
-yarn dev </code>
+yarn dev
+```
 
 <br/>
 Open http://localhost:5173 (or the port shown in your terminal) with your browser to see the result.
@@ -74,9 +76,11 @@ Open http://localhost:5173 (or the port shown in your terminal) with your browse
 
 To create a production-ready build, run:
 
-<code>npm run build
+```bash
+npm run build
 #or
-yarn build</code>
+yarn build
+```
 <br/>
 
 This will create a dist folder with the optimized and minified files for deployment.
