@@ -53,9 +53,11 @@ cd it-academy-landing-page
 
 3. <b>Install dependencies</b>:
 
-<code>npm install
+```bash
+npm install
 #or
-yarn install</code>
+yarn install
+```
 
 <br/>
 <h4>Running the Development Server</h4>
