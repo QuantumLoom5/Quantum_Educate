@@ -40,12 +40,16 @@ Make sure you have Node.js (version 14 or higher) and npm or yarn installed on y
 
 1. <b>Clone the repository</b>:
 
-```git clone https://github.com/your-username/it-academy-landing-page.git```
+```bash
+git clone https://github.com/your-username/it-academy-landing-page.git
+```
 
 
 2. <b>Navigate to the project directory</b>:
 
-```cd it-academy-landing-page```
+```bash
+cd it-academy-landing-page
+```
 
 3. <b>Install dependencies</b>:
 
