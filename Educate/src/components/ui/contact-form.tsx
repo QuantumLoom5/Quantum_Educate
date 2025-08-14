@@ -11,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Form, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
-import { insertContactSchema } from "../../shared/schema";
+import { insertContactSchema } from "../../../shared/schema";
 
 const courseOptions = [
   "University Programming",
