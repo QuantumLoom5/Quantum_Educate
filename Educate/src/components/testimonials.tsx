@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Star } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import type { Testimonial } from "@shared/schema";
+import { Card, CardContent } from "../components/ui/card";
+import type { Testimonial } from "../../shared/schema";
 
 export default function Testimonials() {
   const { data: testimonials, isLoading } = useQuery({

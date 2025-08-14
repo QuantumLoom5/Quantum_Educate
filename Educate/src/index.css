@@ -1,10 +1,23 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* 1. TAILWIND DIRECTIVES */
 
+@import "tailwindcss/base" base;
+@import "tailwindcss/components" components;
+@import "tailwindcss/utilities" utilities;
+
+/* 2. LAYER CUSTOMIZATIONS */
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    font-family: var(--font-sans) antialiased bg-background text-foreground;
+  }
+}
+
+/* 3. ALL OTHER CSS (VARIABLES, ANIMATIONS, ETC.) */
 :root {
   --background: hsl(0 0% 100%);
   --foreground: hsl(210 25% 7.8431%);
@@ -52,7 +65,7 @@
   --shadow-2xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
-  
+
   /* TechEdu Academy specific colors */
   --blue-50: hsl(214 100% 97%);
   --blue-100: hsl(214 95% 93%);
@@ -129,16 +142,6 @@
   --shadow-lg: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 4px 6px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
   --shadow-xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00), 0px 8px 10px -1px hsl(202.8169 89.1213% 53.1373% / 0.00);
   --shadow-2xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0.00);
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply font-sans antialiased bg-background text-foreground;
-  }
 }
 
 /* Custom animations */

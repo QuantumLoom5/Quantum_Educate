@@ -1,10 +1,10 @@
-import Navigation from "@/components/navigation";
-import SchoolHero from "@/components/school-hero";
-import SchoolCourseCatalog from "@/components/school-course-catalog";
-import InstructorProfiles from "@/components/instructor-profiles";
-import Testimonials from "@/components/testimonials";
-import EnrollmentForm from "@/components/enrollment-form";
-import Footer from "@/components/footer";
+import Navigation from "../components/navigation";
+import SchoolHero from "../components/school-hero";
+import SchoolCourseCatalog from "../components/school-course-catalog";
+import InstructorProfiles from "../components/instructor-profiles";
+import Testimonials from "../components/testimonials";
+import EnrollmentForm from "../components/enrollment-form";
+import Footer from "../components/footer";
 
 export default function SchoolCourses() {
   return (

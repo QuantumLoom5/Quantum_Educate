@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
-import { Card, CardContent } from "@/components/ui/card";
-import type { Instructor } from "@shared/schema";
+import { Card, CardContent } from "../components/ui/card";
+import type { Instructor } from "../../shared/schema";
 
 export default function InstructorProfiles() {
   const { data: instructors, isLoading } = useQuery({

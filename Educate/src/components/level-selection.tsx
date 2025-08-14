@@ -1,6 +1,6 @@
 import { GraduationCap, BookOpen, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "../components/ui/card";
 
 export default function LevelSelection() {
   return (

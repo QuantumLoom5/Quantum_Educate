@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useIsMobile } from "@/hooks/use-mobile";
+import { useIsMobile } from "../hooks/use-mobile";
 import { Link, useLocation } from "wouter";
 import { GraduationCap, Menu, X } from "lucide-react";
 
