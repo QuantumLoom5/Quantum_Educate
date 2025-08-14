@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-/* 1. TAILWIND DIRECTIVES */
-
-@import "tailwindcss/base" base;
-@import "tailwindcss/components" components;
-@import "tailwindcss/utilities" utilities;
+@import "tailwindcss/base" layer(my-base);
+@import "tailwindcss/components" layer(my-component);
+@import "tailwindcss/utilities" layer(my-utilities);
 
 /* 2. LAYER CUSTOMIZATIONS */
-@layer base {
+@layer my-base {
   * {
     border-color: var(--border);
   }
